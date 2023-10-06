@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fatim's clinic</title>
+</head>
+<style>
+    body {
+        margin: 0px;
+        padding: 0px;
+        background-image: url(bk1.jpg);
+    }
+
+    .left {
+        display: inline-block;
+        border: 2px solid rgb(0, 0, 0);
+        position: absolute;
+        margin: 10px;
+        padding: 16px;
+        left: 60px;
+        top: 20px;
+
+    }
+
+    .mid {
+        display: block;
+        width: 36%;
+        margin: 29px auto;
+        border: 2px solid rgb(0, 0, 0);
+    }
+
+    .right {
+        position: absolute;
+        right: 34px;
+        top: 30px;
+        display: inline-block;
+        /* border: 2px solid rgb(0, 0, 0); */
+    }
+
+    .navbar {
+        display: inline-block;
+    }
+
+    .navbar li {
+        display: inline-block;
+        font-size: 18px;
+    }
+
+    .navbar li a {
+        color: rgb(0, 0, 0);
+        text-decoration: none;
+        padding: 8px;
+
+    }
+
+    .navbar li a:hover,
+    .navbar li a:active {
+        text-decoration: underline;
+        color: rgb(54, 62, 182);
+    }
+
+    .btn {
+        padding: 15px;
+        border-radius: 5px;
+    }
+
+    .btn:hover {
+        background-color: rgb(54, 62, 182);
+    }
+
+    .container {
+        border: 2px solid rgb(0, 0, 0);
+        margin: 70px 350px;
+        padding: 75px;
+        width: 33%;
+        border-radius: 28px;
+        float: 50px 50px;
+    }
+
+    .form-group input {
+        text-align: center;
+        display: block;
+        width: 450px;
+        padding: 1px;
+        border: 2px solid black;
+        margin: 11px auto;
+        font-size: 25px;
+        border-radius: 8px;
+    }
+
+    .form-group input:hover {
+        color: #000;
+    }
+
+    .container button {
+        display: block;
+        width: 74%;
+        margin: 20px auto;
+    }
+
+    .container h1 {
+        text-align: center;
+    }
+</style>
+
+<body>
+    <header class="head">
+        <div class="left">
+            <!-- <img src="download (1).png" alt=""> -->
+            <div>Fatima's Clinic</div>
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#"> Calculator</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <button class="btn">Call</button>
+            <button class="btn">Video</button>
+        </div>
+    </header>
+    <div class="container">
+        <h1>visit the best clinic</h1>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Name">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your AGE">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Address">
+            </div>
+            <button class="btn">submit</button>
+        </form>
+    </div>
+</body>
+
+</html>
